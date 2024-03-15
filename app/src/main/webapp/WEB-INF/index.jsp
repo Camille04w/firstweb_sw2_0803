@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Olá mundo</h1>
+    <h1>Mensagem : ${message}</h1>
 </body>
 </html>
