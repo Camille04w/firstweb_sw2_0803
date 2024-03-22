@@ -18,7 +18,7 @@ public class CalcController {
         ui.addAttribute("resultado", nA + nB);
         return "calc/form";
     }
-
+  
     @RequestMapping(value="/calc", method = RequestMethod.POST)//mapeamento que está apontando para o /calc
     public String calc(Model ui,
     @RequestParam("numA") int nA, 
